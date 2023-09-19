@@ -1,4 +1,4 @@
-(require 'org-mode)
+(require 'org)
 ;; org-screenshot
 (defvar org-screenshot-command
   "xfce4-screenshooter -r -s %s"
