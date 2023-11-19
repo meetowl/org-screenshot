@@ -17,3 +17,8 @@ You can change this by modifying `org-screenshot-command` by placing the followi
 (setq org-screenshot-command "xfce4-screenshooter -r -s %s")
 ```
 where `%s` is the filename and path that `org-screenshot` will request it to be saved as.
+
+### Everything else
+You can find the configuration variables in [org-screenshot.el](org-screenshot.el).
+
+I think its self explanatory but if you would like more clarification please submit an issue :)
