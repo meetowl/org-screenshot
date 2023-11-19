@@ -62,4 +62,5 @@ The extension is specified with `org-screenshot-file-extension'."
         (progn
           (insert (concat "[[" new-file-path "]]"))
           (org-display-inline-images))
-      (message "Screenshot cancelled (no file created)"))))
+      (message "Screenshot cancelled (no file created)"))
+    (message (concat "Screenshot saved as" new-file-path))))
